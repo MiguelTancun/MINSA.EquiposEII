@@ -13,7 +13,7 @@ const router = new Router({
             component: require('../layout/main/Main.vue').default,
             children: [
                 {
-                    path: '/',
+                    path: '/home',
                     name: 'home',
                     component: require('../pages/Homepage.vue').default, 
                 },
@@ -21,6 +21,11 @@ const router = new Router({
                     path: '/salud',
                     name: 'salud',
                     component: require('../pages/Salud.vue').default, 
+                },
+                {
+                    path: '/',
+                    name: 'georis',
+                    component: require('../pages/Georis.vue').default, 
                 },
                 {
                     path: '/asignacion',

@@ -17,6 +17,9 @@ import store from './store/store'
 
 Vue.component('pagination', require('laravel-vue-pagination'))
 
+import VueFriendlyIframe from 'vue-friendly-iframe'
+Vue.use(VueFriendlyIframe)
+
 import VueAuthHref from 'vue-auth-href'
 const options = {
     token: () => store.state.token

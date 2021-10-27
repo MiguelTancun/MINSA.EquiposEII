@@ -22,6 +22,22 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
+           <router-link to="/" class="nav-link">
+              <i class="nav-icon fas fa-building"></i>
+              <p>
+                GeoRIS
+              </p>
+            </router-link>
+          </li>
+          <li class="nav-item">
+           <router-link to="/home" class="nav-link">
+              <i class="nav-icon fas fa-building"></i>
+              <p>
+                Equipos I.I.
+              </p>
+            </router-link>
+          </li>
+          <li class="nav-item">
            <router-link to="salud" class="nav-link">
               <i class="nav-icon fas fa-building"></i>
               <p>
