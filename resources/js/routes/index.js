@@ -18,9 +18,19 @@ const router = new Router({
                     component: require('../pages/Homepage.vue').default, 
                 },
                 {
+                    path: '/dashboard',
+                    name: 'dashboard',
+                    component: require('../pages/Dashboard.vue').default, 
+                },
+                {
                     path: '/salud',
                     name: 'salud',
                     component: require('../pages/Salud.vue').default, 
+                },
+                {
+                    path: '/ubicaes',
+                    name: 'ubicaes',
+                    component: require('../pages/UbicaES.vue').default, 
                 },
                 {
                     path: '/',

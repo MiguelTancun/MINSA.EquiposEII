@@ -25,7 +25,23 @@
            <router-link to="/" class="nav-link">
               <i class="nav-icon fas fa-building"></i>
               <p>
-                GeoRIS
+                Mapas RIS
+              </p>
+            </router-link>
+          </li>
+          <li class="nav-item">
+           <router-link to="/dashboard" class="nav-link">
+              <i class="nav-icon fas fa-building"></i>
+              <p>
+                DashBoard
+              </p>
+            </router-link>
+          </li>
+          <li class="nav-item">
+           <router-link to="ubicaes" class="nav-link">
+              <i class="nav-icon fas fa-building"></i>
+              <p>
+                Ubica tu E.S.
               </p>
             </router-link>
           </li>
@@ -33,7 +49,7 @@
            <router-link to="/home" class="nav-link">
               <i class="nav-icon fas fa-building"></i>
               <p>
-                Equipos I.I.
+                Equipos Mult. de Salud
               </p>
             </router-link>
           </li>
@@ -41,7 +57,7 @@
            <router-link to="salud" class="nav-link">
               <i class="nav-icon fas fa-building"></i>
               <p>
-                Salud
+                Asignacion Equipo Mult. de Salud
               </p>
             </router-link>
           </li>
